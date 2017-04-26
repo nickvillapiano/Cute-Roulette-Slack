@@ -1,0 +1,36 @@
+{
+  "name": "cute-roulette-slack",
+  "version": "1.0.0",
+  "description": "Cute Roulette Slack App",
+  "main": "cute.js",
+  "scripts": {
+    "start": "node cute.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hardcandyshell/cute-roulette-slack.git"
+  },
+  "keywords": [
+    "cute",
+    "roulette",
+    "slack"
+  ],
+  "author": "Nicholas Villapiano <nick@hardcandyshell.com>",
+  "contributors": [
+    "Stephen Koch <stephen@hardcandyshell.com>"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hardcandyshell/cute-roulette-slack/issues"
+  },
+  "homepage": "https://github.com/hardcandyshell/cute-roulette-slack#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "lodash": "^4.17.2",
+    "request": "^2.79.0"
+  },
+  "engines": {
+    "node": "6.6.0"
+  }
+}
